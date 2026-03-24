@@ -56,7 +56,7 @@ In sostanza: il Mac era connesso alla rete ma **completamente isolato** dal punt
 
 ---
 
-##  -Perché non basta usare un Mac moderno?
+##  Perché non basta usare un Mac moderno?
 
 Potrebbe sembrare logico preparare tutto su un Mac più recente e trasferire il risultato sul MacBook Pro 2010. In realtà questo approccio non funziona per due motivi distinti:
 
