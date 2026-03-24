@@ -56,7 +56,7 @@ In sostanza: il Mac era connesso alla rete ma **completamente isolato** dal punt
 
 ---
 
-## 🤔 Perché non basta usare un Mac moderno?
+##  -Perché non basta usare un Mac moderno?
 
 Potrebbe sembrare logico preparare tutto su un Mac più recente e trasferire il risultato sul MacBook Pro 2010. In realtà questo approccio non funziona per due motivi distinti:
 
@@ -72,7 +72,7 @@ Per questi motivi, **OpenCore deve essere installato e la USB deve essere creata
 
 ---
 
-## ✅ Soluzione step by step
+## <> Soluzione step by step
 
 ### Step 1 — Recuperare un browser funzionante
 
@@ -81,15 +81,15 @@ Il primo ostacolo è che il Mac non riesce a navigare con Safari né con altri b
 **Come fare:**
 
 1. Su un secondo Mac, scarica **Firefox versione 48** dall'archivio ufficiale Mozilla:
-   👉 [https://ftp.mozilla.org/pub/firefox/releases/48.0/mac/](https://ftp.mozilla.org/pub/firefox/releases/48.0/mac/)
+    [https://ftp.mozilla.org/pub/firefox/releases/48.0/mac/](https://ftp.mozilla.org/pub/firefox/releases/48.0/mac/)
    Entra nella cartella della tua lingua (`it/` o `en-US/`) e scarica il `.dmg`
 
 2. Copia il file sul MacBook Pro 2010 tramite chiavetta USB formattata **FAT32**
-   > ⚠️ Usa FAT32, non APFS né Mac OS Extended: è l'unico formato leggibile da entrambi i sistemi indipendentemente dalla versione
+   >  Usa FAT32, non APFS né Mac OS Extended: è l'unico formato leggibile da entrambi i sistemi indipendentemente dalla versione
 
 3. Apri il `.dmg` dal MacBook Pro e installa Firefox normalmente
 
-> ✅ Firefox 48 è abbastanza datato da essere compatibile con macOS 10.8.5, ma abbastanza recente da riuscire a caricare le pagine web necessarie per i passi successivi.
+>  Firefox 48 è abbastanza datato da essere compatibile con macOS 10.8.5, ma abbastanza recente da riuscire a caricare le pagine web necessarie per i passi successivi.
 
 ---
 
@@ -100,7 +100,7 @@ Con Firefox funzionante, il Mac può finalmente accedere a internet.
 **Come fare:**
 
 1. Apri Firefox sul MacBook Pro e vai alla pagina Apple per il download dei sistemi precedenti:
-   👉 [https://support.apple.com/it-it/102662](https://support.apple.com/it-it/102662)
+    [https://support.apple.com/it-it/102662](https://support.apple.com/it-it/102662)
 
 2. Individua **OS X El Capitan 10.11** e clicca il link di download. Il file si scarica direttamente nel browser come `.dmg`.
 
@@ -108,7 +108,7 @@ Con Firefox funzionante, il Mac può finalmente accedere a internet.
 
 4. Terminato il download, apri il `.dmg` e avvia `Installa OS X El Capitan`. Segui le istruzioni a schermo — il Mac si riavvierà più volte, è normale.
 
-> 📌 **Perché El Capitan e non direttamente High Sierra?**
+>  **Perché El Capitan e non direttamente High Sierra?**
 > Saltare troppi aggiornamenti in un unico passaggio non è supportato su questi hardware. El Capitan è il primo step sicuro da 10.8.5: sblocca App Store, browser moderni e la compatibilità software necessaria per il passo successivo.
 
 ---
@@ -125,7 +125,7 @@ Con El Capitan installato, l'App Store funziona normalmente. Questo rende il dow
 
 3. Al termine del download, l'installer si apre automaticamente. Segui le istruzioni — il Mac si riavvierà su **macOS High Sierra 10.13**
 
-> ✅ Hai ora soddisfatto il requisito minimo di OpenCore Legacy Patcher. Sei pronto per il passaggio principale.
+>  Hai ora soddisfatto il requisito minimo di OpenCore Legacy Patcher. Sei pronto per il passaggio principale.
 
 ---
 
@@ -136,7 +136,7 @@ Con El Capitan installato, l'App Store funziona normalmente. Questo rende il dow
 **Come fare:**
 
 1. Vai alla pagina delle release su GitHub:
-   👉 [https://github.com/dortania/OpenCore-Legacy-Patcher/releases](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
+    [https://github.com/dortania/OpenCore-Legacy-Patcher/releases](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 
 2. Scarica l'ultima versione stabile (file `.dmg`)
 
@@ -149,7 +149,7 @@ Con El Capitan installato, l'App Store funziona normalmente. Questo rende il dow
 Questa è la fase centrale: la chiavetta USB da cui il Mac avvierà l'installazione del nuovo macOS.
 
 Segui la guida ufficiale:
-👉 [https://dortania.github.io/OpenCore-Legacy-Patcher/INSTALLER.html](https://dortania.github.io/OpenCore-Legacy-Patcher/INSTALLER.html)
+ [https://dortania.github.io/OpenCore-Legacy-Patcher/INSTALLER.html](https://dortania.github.io/OpenCore-Legacy-Patcher/INSTALLER.html)
 
 **In sintesi:**
 
@@ -159,7 +159,7 @@ Segui la guida ufficiale:
 4. Seleziona la chiavetta come destinazione
 5. Attendi il completamento
 
-> ⚠️ La chiavetta **deve essere creata sul MacBook Pro stesso**, non su un altro Mac. Vedi la sezione [Perché non basta usare un Mac moderno?](#-perché-non-basta-usare-un-mac-moderno) per i dettagli.
+>  La chiavetta **deve essere creata sul MacBook Pro stesso**, non su un altro Mac. Vedi la sezione [Perché non basta usare un Mac moderno?](#-perché-non-basta-usare-un-mac-moderno) per i dettagli.
 
 ---
 
@@ -181,7 +181,7 @@ Segui le guide ufficiali di OpenCore per i passi finali:
 
 ---
 
-## 📎 Risorse ufficiali
+##  Risorse ufficiali
 
 | Risorsa | Link |
 |---|---|
