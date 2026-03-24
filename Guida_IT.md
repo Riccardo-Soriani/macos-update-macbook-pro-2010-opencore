@@ -181,7 +181,7 @@ Segui le guide ufficiali di OpenCore per i passi finali:
 
 ---
 
-##  Risorse ufficiali
+## 📍 Risorse ufficiali
 
 | Risorsa | Link |
 |---|---|
