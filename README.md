@@ -34,4 +34,4 @@ macOS 10.8.5
 
 ---
 
-*Tested on MacBook Pro 15" Mid 2010 — March 2026*re
+*Tested on MacBook Pro 15" Mid 2010 — March 2026*
