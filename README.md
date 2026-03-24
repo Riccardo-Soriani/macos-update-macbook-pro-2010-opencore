@@ -6,8 +6,8 @@ A practical guide to install modern macOS on unsupported Macs using [OpenCore Le
 
 | Language | Link |
 |---|---|
-| 🇮🇹 Italiano | [it-guida.md](./Guida_IT.md) |
-| 🇬🇧 English | [en/guide.md](./en/guide.md) |
+| 🇮🇹 Italiano | [it/guida.md](./Guida_IT.md) |
+| 🇬🇧 English | [en/guide.md](./Guide_EN.md) |
 
 ---
 
